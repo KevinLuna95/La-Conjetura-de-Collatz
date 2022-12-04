@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="style.css"></script>
+    <title>Conjetura de Collatz</title>
+</head>
+<body>
+    <h1 class="titulo">La conjetura de Collatz</h1>
+    <div id="contador">
+        <h2 id="contador_h2">Contador de número verificado:</h2>
+        <span id="contador_p"></span>
+        <span id="collatz_fail">
+        </span>
+    </div>
+    
+    <div id="busqueda">
+        <h2 id="buscafor_h2">Comprueba tu número</h2>
+        <input type="number" name="numero" id="numeroCollatz">
+        <input type="button" value="Comprobar" id="botonCollatz">
+        <span id="busqueda_resultado"></span>
+    </div>
+    <script src="prueba.js"></script>
+    <script src="searcher.js"></script>
+
+</body>
+</html>
