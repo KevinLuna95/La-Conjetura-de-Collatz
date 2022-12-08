@@ -1,3 +1,66 @@
-.titulo {
-    background: blueviolet;
-};
+* {
+    font-size: 20 px;
+}
+
+#titulo {
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+#contador {
+    text-align: center;
+    display: block;
+    border: 2px;
+}
+
+#busqueda{
+    text-align: center;
+    display: block;
+    margin: 0px 20px;
+}
+
+#contador_p {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+#searcherArray {
+    margin-right: 10px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+#botonCollatz {
+    border: none;
+    padding: 15px;
+    background: rgb(209, 209, 209);
+}
+#botonCollatz:hover {
+    background: rgb(37, 37, 37);
+    color: rgb(209, 209, 209);
+}
+
+#numeroCollatz {
+    border: none;
+    padding: 15px;
+    background: rgb(209, 209, 209);
+}
+
+#numeroCollatz:focus {
+    background: rgb(37, 37, 37);
+    color: rgb(209, 209, 209);
+    border: none;
+    outline: none;
+}
+#numeroCollatz::-webkit-outer-spin-button,
+#numeroCollatz::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}

@@ -23,15 +23,14 @@ function numero() {
     if (band == true){
         last3results = [];
         results = [];
-        operaciones = 0;
+        operaciones = 0n;
         band = false;
         mostrarResultado.innerHTML = `${contador}`
         contador++
         res = contador
     };
 };
-
-let timer = setInterval(numero, 100);
+let timer = setInterval(numero, 10);
 
 function comprobacion() {
     if (JSON.stringify(last3results) == JSON.stringify(sequence)) {
